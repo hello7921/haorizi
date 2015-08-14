@@ -1,0 +1,408 @@
+[ 2015-08-03T15:16:28+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T15:16:28+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T15:16:28+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:30:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:30:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:30:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:31:29+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:31:30+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:31:30+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:22+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:22+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:22+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:35:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:36:20+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:36:20+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:36:20+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:42:00+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:42:00+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:42:01+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:49:45+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:49:46+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:49:46+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:50:23+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:50:24+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:47+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:47+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:47+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:48+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:49+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T16:51:48+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:10:02+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:10:02+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:10:03+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:11:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:11:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:11:05+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:13:34+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:13:34+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:13:34+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:12+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:12+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:12+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:36+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:36+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:15:36+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:17:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:17:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:17:43+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:19:17+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:19:18+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:19:18+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:26:58+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:26:58+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:26:58+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:18+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:19+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:19+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:50+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:50+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:28:50+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:29:16+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:29:16+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:29:16+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:35:38+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/statics/admin/images/color.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:35:38+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/kindeditor/kindeditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+
+[ 2015-08-03T17:35:38+08:00 ] 127.0.0.1 /haorizi/__APP__/Public/public/js/jquery/plugins/colorpicker.js%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__APP__
+

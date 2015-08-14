@@ -1,0 +1,70 @@
+
+<include file="public:header" />
+<!--编辑-->
+<form id="info_form" action="{:u(CONTROLLER_NAME.'/'.ACTION_NAME)}" method="post" enctype="multipart/form-data">
+    <div class="pad_10">
+        <div class="col_tab">
+            <ul class="J_tabs tab_but cu_li">
+                <li class="current">{:L('article_basic')}</li>
+                <li>{:L('article_seo')}</li>
+            </ul>
+            <div class="J_panes">
+                <div class="content_list pad_10">
+                     <table width="100%" class="table_form">
+                    <tr>
+                        <th width="80">{:L('sitename')} :</th>
+                        <td><input type="text" name="sitename"  value="{$info.sitename}"   class="input-text">如:学习网</td>
+                    </tr><tr>
+                        <th width="80">{:L('domain')} :</th>
+                        <td><input type="text" name="domain"   value="{$info.domain}" class="input-text">如:www.abc.com</td>
+                    </tr>
+
+                    <tr>
+                        <th>{:L('theme')} :</th>
+                        <td><input type="text" name="theme" value="{$info.theme}"  class="input-text"></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('keyword')} :</th>
+                        <td><input type="text" name="keyword" value="{$info.keyword}" class="input-text" size="30">多个关键字,分开</td>
+                    </tr>
+
+                    </table>
+                </div>
+                <div class="content_list pad_10 hidden">
+                    <table width="100%" cellspacing="0" class="table_form">
+                        <tr>
+                            <th>{:L('sitetitle')} :</th>
+                            <td><input type="text" name="sitetitle" value="{$info.sitetitle}"  class="input-text"> <br>
+                                如：“{关键字}-有限公司热线电话88888 ” </td>
+                        </tr>
+                        <tr>
+                            <th>{:L('description')} :</th>
+                            <td>
+                                <textarea  name="description" class="input-text" cols="80" rows="8">{$info.description}</textarea> <br>
+                                “ 咨询热线:153-2229-8856专家团队,成功案例1000多家,{关键字}公司服务品质一流,选择{关键字}让你家庭美满”
+                            </td>
+                        </tr>
+
+                    </table>
+                    <input type="hidden" name="id" value="{$info.id}" />
+                </div>
+            </div>
+        </div>
+        <div class="btn_wrap_fixed">
+            <input type="submit" value="{:L('submit')}" id="dosubmit1" name="dosubmit1" class="btn btn_submit" style="margin:0 0 5px 5px;">
+        </div>
+    </div>
+</form>
+<include file="public:footer" />
+<script>
+    $(function () {
+        /**
+         * tabs 选择标签
+         */
+        $('ul.J_tabs').tabs('div.J_panes > div');
+
+    });
+
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+[ 2015-08-10T10:07:42+08:00 ] 127.0.0.1 /haorizi/__SITEROOT__/data/upload/no_picture.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__SITEROOT__
+
+[ 2015-08-10T10:07:42+08:00 ] 127.0.0.1 /haorizi/__SITEROOT__/data/upload/no_picture.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:__SITEROOT__
+
+[ 2015-08-10T10:07:43+08:00 ] 127.0.0.1 /haorizi/__SITEROOT__/data/upload/no_picture.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:__SITEROOT__
+
+[ 2015-08-10T10:20:22+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Data
+
+[ 2015-08-10T10:33:53+08:00 ] 127.0.0.1 /haorizi/__SITEROOT__/data/upload/no_picture.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:__SITEROOT__
+
+[ 2015-08-10T10:34:01+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Data
+
+[ 2015-08-10T11:08:16+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Data
+
+[ 2015-08-10T16:00:57+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Data
+
+[ 2015-08-10T16:01:28+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Data
+
+[ 2015-08-10T16:02:47+08:00 ] 127.0.0.1 /haorizi/data/Article_cate/55c80a5db7ff8_thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Data
+

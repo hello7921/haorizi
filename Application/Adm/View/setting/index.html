@@ -1,0 +1,134 @@
+<include file="public:header" />
+<!--管理员管理-->
+<div class="pad_lr_10">
+    <form name="searchform" method="get" >
+        <table width="100%" cellspacing="0" class="search_form">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="explain_col">
+                            <input type="hidden" name="m" value="setting" />
+                            <input type="hidden" name="a" value="setting" />
+                            <input type="hidden" name="t" id="t" />
+                            &nbsp;&nbsp;工号 :
+                            <input name="code" type="text" class="input-text" size="8" value="{$search.code}" />
+                            &nbsp;&nbsp;姓名 :
+                            <input type="text" name="name" class="input-text" size="12" value="{$search.name}" /> 
+                            岗位类型：
+                            <select name="gwlx">
+                                <option <if condition="!isset($search['gwlx']) eq false ">selected="selected"</if> value="" >所有</option>
+                                <option <if condition="$search['gwlx'] eq '0' ">selected="selected"</if> value="0">管理{$search.gwlx}</option>
+                                <option <if condition="$search['gwlx'] eq '1' ">selected="selected"</if> value="1">技术</option>
+                                <option  <if condition="$search['gwlx'] eq '2' ">selected="selected"</if>value="2">技工</option>
+                            </select>
+                            岗位级别：{$level}
+                            薪资级别：{$xzjb}
+                            工作年限：<input type="text" name="gznx" class="input-text" size="12" value="{$search.gznx}" /> 
+
+
+                            <div class="bk8"></div>                
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="J_tablelist table_list"   >
+            <table width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th width="80">
+                            工作年限: 
+                        </th>
+                        <td width="400">
+                           + <input name="gznxadd" type="text" class="input-text" size="8" value="1" />
+                        </td>
+                        <td>
+                            <input type="submit" id="nxid" name="nxid" class="btn" value="确定" />
+                            每年操作一次，工作年限增加后，根据工作年限的相关要改的的参数都会改变，请谨慎操作！
+                        </td>                  
+                    </tr>
+                    <tr>
+                        <th width="80">
+                           更新系数: 
+                        </th>
+                        <td width="400">
+                            <select name="xishu" id="xishu"> 
+                                <option value=''>--请选择--</option>
+                                <option value='gzlxs'>工作量,绩效系数</option>
+                                <option value='gz6'>岗位津贴</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input type="submit"  id="xsid" name="xsid" class="btn" value="确定" />
+                            工作年限增加后，需要更新相关系数！
+                        </td>                  
+                    </tr>
+                    <tr>
+                        <th width="80">
+                            批量设置: 
+                        </th>
+                        <td width="140">
+                            数值：
+                            <input name="val" type="text" class="input-text" size="8" value="" />
+                            设定项：
+                            <select name="fields" id="fields"> 
+                                <option value=''>--请选择--</option>
+                                <option value='gzljs'>工作量津贴基数</option>
+                                <option value='jxjs'>绩效基数</option>
+                                <option value='gz3'>车贴</option>
+                                <option value='gz4'>粮油</option>            
+                                <option value='gz9'>保供应奖</option>
+                                <option value='gz10'>补贴</option>
+                                <option value='gz11'>节日奖</option>
+                                <option value='gz12'>季度奖</option> 
+                            </select>
+                         </td>
+                        <td>
+                            <input type="submit" id="jishu" name="jishu" class="btn" value="确定" />
+                            输入数值和设定项目,所有条件符合的记录都项目都和输入值相同，覆盖原来的数值，请谨慎操作！
+                         </td>                  
+                    </tr>
+                    <tr>
+                        <th width="80">
+                           更新等级: 
+                        </th>
+                        <td width="400">
+                            + <input name="jbval" type="text" class="input-text" size="8" value="1" />
+                            <select name="jibie" id="jibie"> 
+                                <option value=''>--请选择--</option>
+                                <option value='level'>岗位级别</option>
+                                <option value='xzjb'>薪资级别</option>
+                             </select>
+                        </td>
+                        <td>
+                            <input type="submit" id="dj" name="dj" class="btn" value="确定" />
+                            岗位等级递减增加的，如原等级是7，+1后，等级变成6，薪资级别，原13，+1后，变成14；
+                        </td>                  
+                    </tr>
+                </thead> 
+            </table>
+        </div> 
+</div>
+</form>
+<include file="public:footer" />
+<script>
+  $(function(){
+       
+       $("#nxid").click(function(){
+           $("#t").val("nx");
+       });
+       $("#xsid").click(function(){
+            $("#t").val("xs");
+       });
+       $("#jishu").click(function(){
+            $("#t").val("jishu");
+       });
+       
+        $("#dj").click(function(){
+            $("#t").val("dj");
+       });
+  });
+</script>
+</body>
+</html>

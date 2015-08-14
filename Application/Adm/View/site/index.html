@@ -1,0 +1,56 @@
+<include file="public:header" />
+<!--管理员管理-->
+<div class="pad_lr_10">
+    <div class="J_tablelist table_list" data-acturi="{:U(CONTROLLER_NAME.'/ajax_edit')}">
+        <table width="100%" cellspacing="0">
+            <thead>
+            <tr>
+                <th width="40"><input type="checkbox" name="checkall" class="J_checkall"></th>
+                <th width="40">ID</th>
+                <th>{:L('sitename')}</th>
+                <th>{:L('domain')}</th>
+                <th>{:L('sitetitle')}</th>
+                <th>{:L('keyword')}</th>
+      			<th>{:L('description')}</th>
+                <th>{:L('sort_order')}</th>
+                <th>{:L('status')}</th>
+                <th width=200>{:L('operations_manage')}</th>
+            </tr>
+            </thead>
+    	    <tbody>
+            <volist name="list" id="val" >
+            <tr>
+                <td align="center"><input type="checkbox" class="J_checkitem" value="{$val.id}"></td>
+                <td align="center">{$val.id}</td>
+                <td align="center"><span data-tdtype="edit" data-field="sitename" class="tdedit" data-id="{$val.id}">{$val.sitename}</span></td>
+                <td align="center"><span data-tdtype="edit" data-field="domain" class="tdedit" data-id="{$val.id}">{$val.domain}</span></td>
+                <td align="center"><span data-tdtype="edit" data-field="sitetitle" class="tdedit" data-id="{$val.id}">{$val.sitetitle}</span></td>
+                <td align="center"><span data-tdtype="edit" data-field="keyword" class="tdedit" data-id="{$val.id}">{$val.keyword}</span></td>
+                <td align="center"><span data-tdtype="edit" data-field="description" class="tdedit" data-id="{$val.id}">{$val.description|msubstr=###,10}</span></td>
+                <td align="center"><span data-tdtype="edit" data-field="ordid" class="tdedit" data-id="{$val.id}">{$val.ordid}</span></td> 
+
+                <td align="center">
+                    <img data-tdtype="toggle" data-field="status" data-id="{$val.id}" data-value="{$val.status}" src="__PUBLIC__/public/css/admin/bgimg/toggle_<if condition="$val.status eq 0">disabled<else/>enabled</if>.gif" />
+                </td>
+                <td align="center">
+                     <a href="{:U('article/index', array('site_id'=>$val['id']))}"   data-title="{:L('edit')} - {$val.sitename}"  data-id="edit" data-width="450" data-height="210">查看文章</a> |
+                    <a href="{:U('article_cate/index', array('site_id'=>$val['id']))}"   data-title="{:L('edit')} - {$val.sitename}"  data-id="edit" data-width="450" data-height="210">查看栏目</a> |
+                    <a href="{:U(CONTROLLER_NAME.'/edit', array('id'=>$val['id']))}"   data-title="{:L('edit')} - {$val.sitename}"  data-id="edit" data-width="450" data-height="210">{:L('edit')}</a> |
+                    <a href="javascript:;" class="J_confirmurl" data-uri="{:U(CONTROLLER_NAME.'/delete', array('id'=>$val['id']))}" data-msg="{:sprintf(L('confirm_delete_one'),$val['sitename'])}">{:L('delete')}</a>
+                </td>
+            </tr>
+            </volist>
+    	   </tbody>
+        </table>
+    </div>
+    <div class="btn_wrap_fixed">
+	<label class="select_all mr10"><input type="checkbox" name="checkall" class="J_checkall">{:L('select_all')}/{:L('cancel')}</label>
+    	<input type="button" class="btn" data-tdtype="batch_action" data-acttype="ajax" data-uri="{:U(CONTROLLER_NAME.'/delete')}" data-name="id" data-msg="{:L('confirm_delete')}" value="{:L('delete')}" />
+	<input type="button" class="btn"  data-tdtype="button_action" data-acttype="url" data-uri="{:U(CONTROLLER_NAME.'/setting')}" data-name="setting"   value="批量设置" />
+	
+        <div id="pages">{$page}</div>
+    </div>
+</div>
+<include file="public:footer" />
+</body>
+</html>

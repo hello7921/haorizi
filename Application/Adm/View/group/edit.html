@@ -1,0 +1,26 @@
+<!--添加栏目-->
+<div class="dialog_content">
+	<form id="info_form" action="{:u(CONTROLLER_NAME.'/'.ACTION_NAME)}" method="post">
+	<table width="100%" class="table_form">		
+		<tr>
+			<th>{:L('title')} :</th>
+			<td><input type="text" name="name" id="name" class="input-text" size="30" value="{$info.name}"/></td>
+		</tr>		        
+        <tr>
+		<th>{:L('enabled')} :</th>
+            <td>
+                <label><input type="radio" name="status" value="1" <if condition="$info['status'] eq 1">checked</if>/> {:L('yes')}</label>&nbsp;&nbsp;
+                <label><input type="radio" name="status" value="0" <if condition="$info['status'] eq 0">checked</if>/> {:L('no')}</label>
+            </td>
+        </tr>
+		 
+	</table>
+    <input type="hidden" name="id" value="{$info.id}"/>
+	</form>
+</div>
+<script src="__STATIC__/js/fileuploader.js"></script>
+<script>
+$(function(){
+	$("#name").formValidator({onshow:lang.please_input,onfocus:lang.please_input}).inputValidator({min:1,onerror:lang.please_input});
+});
+</script>

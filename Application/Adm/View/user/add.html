@@ -1,0 +1,131 @@
+<include file="public:header" />
+<!--添加用户-->
+<form id="info_form" action="{:u(GROUP_NAME.'/'.CONTROLLER_NAME.'/'.ACTION_NAME)}" method="post" enctype="multipart/form-data">
+<div class="pad_10">
+	<div class="col_tab">
+		<ul class="J_tabs tab_but cu_li">
+			<li class="current">{:L('article_basic')}</li>
+			<li>其他信息</li>
+		</ul>
+		<div class="J_panes">
+			<div class="content_list pad_10">
+				<table width="100%" cellspacing="0" class="table_form">
+					<tr>
+						<th width="120">{:L('loginname')} :</th>
+						<td>
+                            <input type="text" name="loginname" id="loginname" class="input-text" size="30">
+                        </td>
+					</tr>
+                    <tr>
+                        <th width="120">{:L('username')} :</th>
+                        <td>
+                            <input type="text" name="username" id="username" class="input-text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th width="120">{:L('password')} :</th>
+                        <td>
+                            <input type="text" name="password" id="password" class="input-text" size="30">
+                        </td>
+                    </tr>
+		            <tr>
+						<th>{:L('leixin')} :</th>
+						<td>
+							 <select name="leixin">
+ 	        						<option value="0">个人</option>
+ 	        						<option value="1">企业</option>
+
+							 </select>
+		                </td>
+					</tr>
+		            <tr>
+						<th>{:L('sex')} :</th>
+						<td>
+                            <label><input type="radio" name="sex" class="radio_style" value="男" checked="checked"> 男 </label>&nbsp;&nbsp;
+                            <label><input type="radio" name="sex" class="radio_style" value="女" >女</label>
+                        </td>
+					</tr>
+					<tr>
+						<th>{:L('gongsi')} :</th>
+						<td><input type="text" name="gongsi" id="gongsi" class="input-text" size="30" value=""></td>
+					</tr>
+		            <tr>
+						<th>{:L('addrs')} :</th>
+						<td><input type="text" name="addrs" id="addrs" class="input-text" size="60" value=""></td>
+					</tr>
+		            <tr>
+						<th>{:L('postcode')} :</th>
+						<td><input type="text" name="postcode" id="postcode" class="input-text" size="20" value=""></td>
+		 			</tr>
+
+ <tr>
+						<th>{:L('tel')} :</th>
+						<td><input type="text" name="tel" id="tel" class="input-text" size="20" value=""></td>
+		 			</tr>
+                    <tr>
+						<th>{:L('postcode')} :</th>
+						<td><input type="text" name="fax" id="fax" class="input-text" size="20" value=""></td>
+		 			</tr>
+                    <tr>
+						<th>{:L('email')} :</th>
+						<td><input type="text" name="email" id="email" class="input-text" size="20" value=""></td>
+		 			</tr>
+                    <tr>
+						<th>{:L('website')} :</th>
+						<td><input type="text" name="website" id="website" class="input-text" size="20" value=""></td>
+		 			</tr>
+
+
+				</table>
+			</div>
+
+        </div>
+	</div>
+    <div class="btn_wrap_fixed">
+        <input type="submit" value="{:L('submit')}" id="dosubmit1" name="dosubmit1" class="btn btn_submit" style="margin:0 0 5px 5px;">
+    </div>
+</div>
+</form>
+<include file="public:footer" />
+<script src=__PUBLIC__/public/js/jquery/plugins/colorpicker.js"></script>
+<script src="__PUBLIC__/public/js/kindeditor/kindeditor.js"></script>
+<script>
+$(function() {
+    /**
+     *  栏目联动选择
+     */
+  //  $('.J_cate_select').cate_select('请选择');
+   /*
+    *  图文编辑框
+    */
+	KindEditor.create('#beizhu', {
+		uploadJson : '{:U("attachment/editer_upload")}',
+		fileManagerJson : '{:U("attachment/editer_manager")}',
+		allowFileManager : true
+	});
+    /**
+     * tabs 选择标签
+     */
+	$('ul.J_tabs').tabs('div.J_panes > div');
+    //自动获取标签
+    $('#J_gettags').live('click', function() {
+        var title = $.trim($('#J_title').val());
+        if(title == ''){
+            $.zhiphp.tip({content:lang.article_title_isempty, icon:'alert'});
+            return false;
+        }
+        $.getJSON('{:U("article/ajax_gettags")}', {title:title}, function(result){
+            if(result.status == 1){
+                $('#J_tags').val(result.data);
+            }else{
+                $.zhiphp.tip({content:result.msg});
+            }
+        });
+    });
+});
+
+//颜色选择器
+//$('.J_color_picker').colorpicker();
+</script>
+</body>
+</html>

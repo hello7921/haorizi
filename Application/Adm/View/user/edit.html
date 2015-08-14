@@ -1,0 +1,152 @@
+﻿<include file="public:header" />
+<!--订单-->
+<form id="info_form" action="{:u(GROUP_NAME.'/'.CONTROLLER_NAME.'/'.ACTION_NAME)}" method="post" enctype="multipart/form-data">
+<div class="pad_10">
+	<div class="col_tab">
+		<ul class="J_tabs tab_but cu_li">
+			<li class="current">{:L('article_basic')}</li>
+		</ul>
+		<div class="J_panes">
+			<div class="content_list pad_10">
+				<table width="100%" cellspacing="0" class="table_form">
+                    <tr>
+                        <th width="120">{:L('loginname')} :</th>
+                        <td>
+                            <input type="text" value="{$info.loginname}" name="loginname" id="loginname" class="input-text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th width="120">{:L('username')} :</th>
+                        <td>
+                            <input type="text" value="{$info.username}" name="username" id="username" class="input-text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th width="120">{:L('password')} :</th>
+                        <td>
+                            <input type="text" name="password" value="{$info.password}" id="password" class="input-text" size="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>{:L('leixin')} :</th>
+                        <td>
+                            <select name="leixin">
+                                <option value="0" <if condition="0 eq $info['leixin']">selected="selected"</if>>个人</option>
+                                <option value="1" <if condition="1 eq $info['leixin']">selected="selected"</if>>企业</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>{:L('sex')} :</th>
+                        <td>
+                            <label><input type="radio" name="sex" class="radio_style" value="男" <if condition="'男' eq $info['sex']">checked="checked"</if>> 男 </label>&nbsp;&nbsp;
+                            <label><input type="radio" name="sex" class="radio_style" value="女" <if condition="'女' eq $info['sex']">checked="checked"</if>>女</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>{:L('gongsi')} :</th>
+                        <td><input type="text" name="gongsi" value="{$info.gongsi}" id="gongsi" class="input-text" size="30" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('addrs')} :</th>
+                        <td><input type="text" name="addrs" value="{$info.addrs}" id="addrs" class="input-text" size="60" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('postcode')} :</th>
+                        <td><input type="text" name="postcode" value="{$info.postcode}" id="postcode" class="input-text" size="20" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('tel')} :</th>
+                        <td><input type="text" name="tel" id="tel" value="{$info.tel}" class="input-text" size="20" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('postcode')} :</th>
+                        <td><input type="text" name="fax" id="fax" value="{$info.postcode}" class="input-text" size="20" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('email')} :</th>
+                        <td><input type="text" name="email" id="email" value="{$info.email}" class="input-text" size="20" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>{:L('website')} :</th>
+                        <td><input type="text" name="website" id="website" value="{$info.website}" class="input-text" size="20" value=""></td>
+                    </tr>
+				</table>
+			</div>
+			 <input type="hidden" name="id" value="{$info.id}" />
+        </div>
+	</div>
+    <div class="btn_wrap_fixed">
+        <input type="submit" value="{:L('submit')}" id="dosubmit1" name="dosubmit1" class="btn btn_submit" style="margin:0 0 5px 5px;">
+    </div>
+</div>
+</form>
+<include file="public:footer" />
+<script src=__PUBLIC__/public/js/jquery/plugins/colorpicker.js"></script>
+<script src="__PUBLIC__/public/js/kindeditor/kindeditor.js"></script>
+<script>
+$(function() {
+    /**
+     *  栏目联动选择
+     */
+  //  $('.J_cate_select').cate_select('请选择');
+   /*
+    *  图文编辑框
+    */
+	KindEditor.create('#beizhu', {
+		uploadJson : '{:U("attachment/editer_upload")}',
+		fileManagerJson : '{:U("attachment/editer_manager")}',
+		allowFileManager : true
+	});
+    /**
+     * tabs 选择标签
+     */
+	$('ul.J_tabs').tabs('div.J_panes > div');
+    //自动获取标签
+    $('#J_gettags').live('click', function() {
+        var title = $.trim($('#J_title').val());
+        if(title == ''){
+            $.zhiphp.tip({content:lang.article_title_isempty, icon:'alert'});
+            return false;
+        }
+        $.getJSON('{:U("article/ajax_gettags")}', {title:title}, function(result){
+            if(result.status == 1){
+                $('#J_tags').val(result.data);
+            }else{
+                $.zhiphp.tip({content:result.msg});
+            }
+        });
+    });
+});
+
+//颜色选择器
+//$('.J_color_picker').colorpicker();
+$(function(){
+	$.formValidator.initConfig({formid:"9info_form",autotip:true});
+
+	$("#J_username").formValidator({ onshow:lang.please_input+lang.admin_username, onfocus:lang.please_input+lang.admin_username}).inputValidator({ min:1, onerror:lang.please_input+lang.admin_username}).ajaxValidator({type:"get", url:check_name_url, datatype:"html", async:'false', success:function(data){	if( data == "1" ){return true;}else{return false;}}, onerror:lang.admin_name_exists, onwait:lang.connecting_please_wait}).defaultPassed();
+	$("#J_password").formValidator({ empty:true, onshow:lang.not_edit_password, onfocus:lang.password+lang.between_6_to_20}).inputValidator({ min:6, max:20, onerror:lang.password+lang.between_6_to_20});
+	$("#J_repassword").formValidator({ empty:true, onshow:lang.not_edit_password, onfocus:lang.cofirmpwd}).compareValidator({desid:"J_password",operateor:"=",onerror:lang.passwords_not_match});
+
+	$('#info_form').ajaxForm({success:complate,dataType:'json'});
+    function complate(result){
+        if(result.status == 1){
+            $.dialog.get(result.dialog).close();
+            $.ZhiPHP.tip({content:result.msg});
+            window.location.reload();
+        } else {
+            $.ZhiPHP.tip({content:result.msg, icon:'alert'});
+        }
+    }
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+ 

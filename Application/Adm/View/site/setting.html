@@ -1,0 +1,78 @@
+<include file="public:header" />
+<!--设置-->
+<form id="info_form" action="{:u(CONTROLLER_NAME.'/'.ACTION_NAME)}" method="post" enctype="multipart/form-data">
+    <div class="pad_10">
+        <div class="col_tab">
+            <ul class="J_tabs tab_but cu_li">
+                <li class="current">{:L('article_basic')}</li>               
+            </ul>
+            <div class="J_panes">
+                <div class="content_list pad_10">
+                    <table width="100%" cellspacing="0" class="table_form">
+                        <tr> 
+                            <th width="80">{:L('group')} :</th>
+                            <td>
+                                <select name="group_id" id="group_id">
+                                    <volist name="group_select" id="val" >
+                                        <option value="{$val.id}" <if condition="$val['id'] eq $group_id">selected="selected"</if>>{$val.name}</option>
+                                    </volist>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>字段 :</th>
+                            <td>
+                                <select id="settype" name="settype">
+                                    <option value="sitename">站点名称</option>
+                                    <option value="sitetitle">SEO标题</option>
+                                    <option value="description">站点简介</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>模板文字 :</th>
+                            <td><textarea name="title" id="js_title" cols="80" rows="3"></textarea>
+                                <br>
+                                 “ 咨询热线:153-2229-8856专家团队,成功案例1000多家,{关键字1}公司服务品质一流,选择{关键字}让你家庭美满”
+                                 <br>
+                                 标签：
+                                 <a href="javascript:;" class="J_keywrod" label="{关键字}" title="网站名称">关键字</a> 
+                                 | <a href="javascript:;" class="J_keywrod" label="{关键字1}"  title="关键字中的第一个关键字">关键字1</a>
+                                 | <a href="javascript:;" class="J_keywrod" label="{关键字2}"  title="关键字中的第二个关键字">关键字2</a>
+                                 | <a href="javascript:;" class="J_keywrod" label="{关键字3}" title="关键字中的第三个关键字">关键字2</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>操作 :</th>
+                            <td><select id="action" name="action">
+                                    <option value="replace">替换</option>
+                                    <option value="before">在文本前插入</option>
+                                    <option value="after">在文本未插入</option>
+                                </select></td>
+                        </tr>
+
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="btn_wrap_fixed">
+            <input type="submit" value="{:L('submit')}" id="dosubmit1" name="dosubmit1" class="btn btn_submit" style="margin:0 0 5px 5px;">
+        </div>
+    </div>
+</form>
+<include file="public:footer" />
+<script src="__PUBLIC__/public/js/inserttext.js"></script>
+<script>
+    $(function() { 
+        $('.J_keywrod').live('click', function(){
+            var self = $(this),label_title=self.attr('label');            
+           $("#js_title").insertContent(label_title); 
+            
+        });
+        
+    });
+
+</script>
+</body>
+</html>
